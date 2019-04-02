@@ -14,9 +14,6 @@ var moment = require("moment");
  
 //SET UP spotify API KEY VIA 'keys.js' file
 var spotify = new Spotify(keys.spotify);
-//SET UP OMDB API KEYS VIA 'keys.js' file
-//var omdb = (keys.omdb);
-//SET UP bandsInTown API KEYS VIA 'keys.js' file
 
 var userInput = process.argv[2];
 var userQuery = process.argv.slice(3).join(" ");
@@ -24,13 +21,13 @@ var userQuery = process.argv.slice(3).join(" ");
 //FUNCTION TO TAKE userInput
 function userCommand(userInput, userQuery) {
     switch (userInput) {
-        case "concert-this":
+        case "concert":
             concertThis();
             break;
-        case "spotify-this-song":
+        case "spotify":
             spotifyThisSong();
             break;
-        case "movie-this":
+        case "movie":
             movieThis();
             break;
         case "do-this":
@@ -110,7 +107,7 @@ function movieThis() {
     request(queryUrl, function(error, response, body) {
 
         if (!movieName) {
-            movieName = "mr nobody";
+            movieName = " ";
             console.log("Check it out your sure to get a laugh: http://www.imdb.com/title/tt0485947/");
             return;
         }
