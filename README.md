@@ -12,10 +12,11 @@ Node.js application
 <li> LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 <h1>APIs and Dependencies<h1>
-<p>Liri utilizes data from the follwing APIs and NPM packages
+<ul>
+<h5>Liri utilizes data from the follwing APIs and NPM packages<h5>
 
   
-<ul>
+
 <li>Spotify API
 <li>Bandsintown API
 <li>OMDB API
