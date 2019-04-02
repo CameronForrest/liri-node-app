@@ -9,7 +9,7 @@ Node.js application
 </ul>
 <h1>About</h1>
 <ul>
-<li> LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+<li> LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</li>
 <h1>API and Dependencies</h1>
 <ul>
 <li> spotify
