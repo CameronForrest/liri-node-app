@@ -14,11 +14,12 @@ Node.js application
 <h1>APIs and Dependencies<h1>
 Liri utilizes data from the follwing APIs and NPM packages
 
-Spotify API
-Bandsintown API
-OMDB API
-Axios
-Dotenv
-Inquirer
-Moment
-Node Spotify API
+<ul>
+<li>Spotify API
+<li>Bandsintown API
+<li>OMDB API
+<li>Axios
+<li>Dotenv
+<li>Inquirer
+<li>Moment
+<li>Node Spotify API
